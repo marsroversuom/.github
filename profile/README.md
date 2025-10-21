@@ -51,9 +51,9 @@ The goal of this design is to have something that can be scaled into the final c
       <td><em>Software/Electrical Lead</em></td>
     </tr>
     <tr>
-      <td>Founded the project from scratch, secured funding, faculty advisors and 20+ student members. Led development across the project, managing project timeline and task delegation </td>
+      <td>Founded the project from scratch, secured funding, faculty advisors and 20+ student members. Led development across the project, managing project timeline and task delegation. Sourced electrical parts for the project. </td>
       <td>Manages the main CAD files and advises on design ideas. Creates optimised and resource-friendly designs compatible with 3D-printing and assembly with minimum fixtures and support. </td>
-      <td>Helps code software that manages the signals between the rover, computer and motors, ensuring that all the components communicate to each other effectively.</td>
+      <td>Coded software that manages the signals and PWM between the rover, computer and motors, ensuring that all the components communicate to each other effectively. Helped make a functional design for the arm of the rover from scratch.</td>
     </tr>
   </tbody>
 </table>
