@@ -90,7 +90,7 @@ h3 {
   
   /* This centers the content vertically */
   align-items: center;
-  
+
   margin: 0; 
 }
 </style>
@@ -119,6 +119,12 @@ h3 {
     <h3>Keshav Kannan</h3>
     <p class="title">Software/Electrical Lead</p>
     <p class="description">Helps code software that manages the signals between the rover, computer and motors, ensuring that all the components communicate to each other effectively.</p>
+  </div>
+
+  <div class="profile-card">
+    <h3>Mira</h3>
+    <p class="title">Physics advisor</p>
+    <p class="description"> arm math</p>
   </div>
 
 </div>
