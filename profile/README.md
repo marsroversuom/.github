@@ -30,105 +30,33 @@ The goal of this design is to have something that can be scaled into the final c
   <img src="image-4.png" alt="description for image 4" style="height: 400px; width: auto;">
 </div>
 
-## Meet the team
+## Meet the core
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
   <img src="image-5.jpg" alt="description for image 3" style="height: 400px; width: auto;">
 </div>
 
-<style> 
-  /* --- CORRECTED STYLES --- */
-
-/* Main container for the cards */
-.profile-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 10px;
-  padding: 10px; 
-  font-family: sans-serif;
-  /* 👇 CHANGE: 'stretch' makes all cards match the height of the tallest one */
-  align-items: stretch; 
-}
-
-/* Individual card styling */
-.profile-card {
-  flex-shrink: 0;
-  width: 150px; 
-  /* 👇 REMOVED: height: 100%; is no longer needed */
-  background-color: #4f4a4aff;
-  border: 1px solid #4f4a4aff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  /* 👇 CHANGE: Switched to a dark color for readability */
-  color: white; 
-  padding: 15px;
-  /* 👇 ADDED: Ensures content is vertically aligned nicely */
-  display: flex;
-  flex-direction: column;
-}
-
-/* --- The rest of your styles can stay the same --- */
-h3 {
-  margin-top: 0;
-}
-.title {
-  color: white;
-  font-size: 0.9em;
-}
-.description {
-  font-size: 0.8em;
-  flex-grow: 1; /* Allows this element to fill remaining space */
-}
-
-#hi {
-  /* This makes the body a flex container */
-  display: flex;
-  
-  /* This centers the content (your card container) horizontally */
-  justify-content: center; 
-  
-  /* This centers the content vertically */
-  align-items: center;
-
-  margin: 0; 
-}
-</style>
-<div id = "hi">
-<div class="profile-container">
-
-  <div class="profile-card">
-    <h3>Albert</h3>
-    <p class="title">AI/Computer science advisor</p>
-    <p class="description">Expert in front-end frameworks and building scalable user interfaces.</p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Arai</h3>
-    <p class="title">Project Lead</p>
-    <p class="description">Dedicated to delivering high-quality projects on time and within budget.</p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Yang</h3>
-    <p class="title">Onshape/CAD Lead</p>
-    <p class="description">Passionate about creating intuitive and beautiful user experiences.</p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Keshav Kannan</h3>
-    <p class="title">Software/Electrical Lead</p>
-    <p class="description">Helps code software that manages the signals between the rover, computer and motors, ensuring that all the components communicate to each other effectively.</p>
-  </div>
-
-  <div class="profile-card">
-    <h3>Mira</h3>
-    <p class="title">Physics advisor</p>
-    <p class="description"> arm math</p>
-  </div>
-
-</div>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Arai</th>
+      <th>Yang</th>
+      <th>Keshav Kannan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Project engineering Lead</em></td>
+      <td><em>Mechanical Lead</em></td>
+      <td><em>Software/Electrical Lead</em></td>
+    </tr>
+    <tr>
+      <td>Founded the project from scratch, secured funding, faculty advisors and 20+ student members. Led development across the project, managing project timeline and task delegation </td>
+      <td>Manages the main CAD files and advises on design ideas. Creates optimised and resource-friendly designs compatible with 3D-printing and assembly with minimum fixtures and support. </td>
+      <td>Helps code software that manages the signals between the rover, computer and motors, ensuring that all the components communicate to each other effectively.</td>
+    </tr>
+  </tbody>
+</table>
 <!--
 
 **Here are some ideas to get you started:**
